@@ -1,17 +1,17 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeplasmaver	6.5.2
+%define		kdeplasmaver	6.5.3
 %define		qtver		5.15.2
 %define		kpname		milou
 Summary:	A dedicated search application built on top of Baloo
 Name:		kp6-%{kpname}
-Version:	6.5.2
+Version:	6.5.3
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/plasma/%{kdeplasmaver}/%{kpname}-%{version}.tar.xz
-# Source0-md5:	d304d603402df595a00171ec542c51de
+# Source0-md5:	0cf5a5c20b9083442edbac1e3589f45a
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	cmake >= 3.16.0
