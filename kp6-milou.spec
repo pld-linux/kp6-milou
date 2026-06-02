@@ -33,6 +33,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 A dedicated search application built on top of Baloo.
 
+%description -l pl.UTF-8
+Aplikacja do wyszukiwania zbudowana na bazie Baloo.
+
 %prep
 %setup -q -n %{kpname}-%{version}
 
